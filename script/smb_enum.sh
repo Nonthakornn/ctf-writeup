@@ -11,3 +11,4 @@ if [ $? -eq 0 ];  then
 else
         echo "[-] Fail"
 fi
+done < "$WORDLIST"
